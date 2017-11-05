@@ -1,0 +1,109 @@
+.minesweeper-game .minefield .cell {
+  float: left;
+  background-color: lightgrey;
+}
+
+.minesweeper-game .minefield .first-cell {
+  clear: left;
+}
+
+.minesweeper-game .minefield .concealed-cell {
+  width: 20px;
+  height: 20px;
+  border: 3px outset lightgrey;
+}
+
+.minesweeper-game .minefield .concealed-cell.pressed-cell {
+  border-style: inset;
+}
+
+.minesweeper-game .minefield .concealed-cell.flagged-cell {
+  background-image: url(flag.png);
+}
+
+.minesweeper-game .minefield .concealed-cell.flagged-cell.pressed-cell {
+  border-style: outset;
+}
+
+.minesweeper-game .minefield .revealed-cell {
+  width: 24px;
+  height: 24px;
+  border: 1px dotted grey;
+}
+
+.minesweeper-game .minefield .revealed-cell.mine {
+  background-image: url(mine.png);
+}
+
+.minesweeper-game .minefield .revealed-cell.mine.detonated-mine {
+  background-color: red;
+}
+
+.minesweeper-game .minefield .hint {
+  font-weight: bold;
+  text-align: center;
+  line-height: 24px;
+  font-size: 18px;
+}
+
+.minesweeper-game .minefield .hint-one {
+  color: blue;
+}
+
+.minesweeper-game .minefield .hint-two {
+  color: green;
+}
+
+.minesweeper-game .minefield .hint-three {
+  color: red;
+}
+
+.minesweeper-game .minefield .hint-four {
+  color: navy;
+}
+
+.minesweeper-game .minefield .hint-five {
+  color: maroon;
+}
+
+.minesweeper-game .minefield .hint-six {
+  color: maroon;
+}
+
+.minesweeper-game .minefield .hint-seven {
+  color: maroon;
+}
+
+.minesweeper-game .minefield .hint-eight {
+  color: maroon;
+}
+
+.minesweeper-game .new-game-button {
+  width: 30px;
+  height: 30px;
+  border: 3px outset lightgrey;
+  background-color: lightgrey;
+  background-size: 30px 30px;
+}
+
+.minesweeper-game .new-game-button.pressed-button {
+  border-style: inset;
+  background-size: 26px 26px;
+  background-position: 2px 2px;
+}
+
+.minesweeper-game .new-game-button.happy {
+  background-image: url(face_happy.png);
+}
+
+.minesweeper-game .new-game-button.happy.blowjob {
+  background-image: url(face_blowjob.png);
+}
+
+.minesweeper-game .new-game-button.sad {
+  background-image: url(face_sad.png);
+}
+
+.minesweeper-game .new-game-button.glasses {
+  background-image: url(face_glasses.png);
+}
